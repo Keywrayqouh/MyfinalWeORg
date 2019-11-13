@@ -1,14 +1,7 @@
 <template>
 <div>
-  <h2>WELCOME</h2>
-
-
   <div class="home">
-   
-    <br><br>
-    
-      <img alt="Vue logo" src="../assets/my.jpeg">
-    
+      <img alt="Vue logo" src="../assets/bg.jpg">
   </div>
   <h1>WE ORGANIZE</h1>
   </div>
@@ -22,14 +15,15 @@
 
 <style scoped>
     .home{
-        padding: 20px;
+      
         height: 100%;
         display:flex;
         justify-content: center;
         align-items: center;
     }
     img{
-      height: 100%;
+      height: 50%;
+      width:100%
       
     }
     h2{
